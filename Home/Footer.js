@@ -1,4 +1,4 @@
-import React from "react"
+
 
 import Link from 'next/link'
 
@@ -41,7 +41,7 @@ function Footer(){
           <div className='social-media-wrap'>
             <div className='footer-logo'>
               <Link href="/" className='social-logo'>
-                <div>
+                <div className = "social-logo">
                   JPNF
                   <i className='fab fa-typo3' />
                 </div>

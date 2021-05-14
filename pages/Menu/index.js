@@ -1,6 +1,6 @@
-import React, {useState} from "react"
 
-import Cards from "./Cards"
+
+import Cards from "../../Menu/Cards"
 
 function Menus(){
     return(

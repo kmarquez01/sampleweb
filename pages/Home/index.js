@@ -1,12 +1,12 @@
-import Footer from "./Footer"
+import Footer from "../../Home/Footer"
 
-import MainContent from "./MainContent"
+import MainContent from "../../Home/MainContent"
 
 import styles from "../../styles/Home.module.css"
 
 import  Link  from 'next/link'
 
-import Navigation from "../Navigation"
+import Navigation from "../../Navigation"
 
 
 

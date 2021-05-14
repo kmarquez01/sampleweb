@@ -372,16 +372,15 @@ h1 {
   margin: 50px 0 45px;
 }
 
-.cards_items {
-  display: webkit-flex;
+.cards_items, .cards_item_link {
+  display: flex;
   margin-bottom: 16px;
   width: 75%;
-  -webkit-flex-direction: column;
+  flex-direction: column;
   margin-inline: auto;
 }
 
 .cards_item {
-  display: webkit-flex;
   flex: 1;
   margin: 0 .5rem;
   border-radius: 10px;
@@ -404,6 +403,7 @@ h1 {
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .fade-img {

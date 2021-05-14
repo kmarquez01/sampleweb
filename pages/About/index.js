@@ -1,10 +1,10 @@
-import React from "react"
 
-import WhoWeAre from "./WhoWeAre"
 
-import Locations from "./Locations"
+import WhoWeAre from "../../About/WhoWeAre"
 
-import Navigation from "../Navigation"
+import Locations from "../../About/Locations"
+
+import Navigation from "../../Navigation"
 
 function Abouts(){
     return(

@@ -1,6 +1,3 @@
-import React from "react"
-
-
 const locations = ["Oshokuji-dokoro Asuka", "Den Shichi Sushi Saiin", "Gion Karyo", "Tousuiro"]
 
 const updatedlocations = locations.map((locations) => {
