@@ -73,8 +73,12 @@ img{
 
 /* Home */
 
-.container0{
-
+.introcontainer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 40%;
 }
 
 .home{
@@ -101,9 +105,6 @@ font-size: 40px;
 
 .button{
 position: relative;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 border: solid 2px;
 border-color: whitesmoke;
 padding: 5px 20px;	
