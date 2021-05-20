@@ -77,14 +77,30 @@ img{
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   top: 40%;
+}
+
+.startcontainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.vd{
+  object-fit: cover;
+  width: 100vw;
+  height: 100%;
 }
 
 .home{
   overflow: hidden; 
   height: 48vw;
-  background-image: url("https://wallpaperaccess.com/full/279547.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   image-rendering: auto;
@@ -382,6 +398,7 @@ h1 {
 }
 
 .cards_item {
+  cursor: pointer;
   flex: 1;
   margin: 0 .5rem;
   border-radius: 10px;
@@ -463,10 +480,15 @@ h1 {
   height:100%;
 }
 
+.aboutcon{
+  height:100%;
+}
+
 .aboutus-container{
   position: relative;
   margin-left: 10%;
   margin-top: 10%;
+  
 
 
 }
@@ -495,7 +517,7 @@ h1 {
   font-size: 3vh;
   margin:0 auto;
   margin-top: 30px;
-  width:150%;
+  width:100%;
   text-align: left;
   height:fit-content;
 

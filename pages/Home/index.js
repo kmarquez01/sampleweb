@@ -12,11 +12,18 @@ import {motion} from "framer-motion"
 
 
 
+
+
 function Homes(){
     return(
         <div className = {styles.container0}>
             <Navigation />
             <section className = {styles.home}>
+            <div className = "startcontainer">
+            <video autoPlay muted loop playsInline className = "vd">
+                   <source src = "/videos/053.mp4" type = "video/mp4"/>
+               </video>
+               </div>
                 <div className = "introcontainer">
                 <motion.div initial = "hidden" animate = "visible" variants = {{
                     hidden: {
@@ -31,7 +38,7 @@ function Homes(){
                         }
                     }
                 }}>
-                    <h1 className = {styles.title}>Welcome to JPNF, where food cravings are satisfied!</h1>
+                    <h1 className = {styles.title}>Welcome to Lafu, where food cravings are satisfied!</h1>
                 </motion.div>
                 <motion.div initial = "hidden" animate = "visible" variants = {{
                     hidden: {

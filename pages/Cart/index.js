@@ -5,7 +5,11 @@ function Cart(){
     return(
         <div>
             <Navigation />
-            Under Construction!
+            <section className = "cart">
+                <div className = "paysheet">
+                    Under Construction!
+                </div>
+            </section>
         </div>
     )
 }
