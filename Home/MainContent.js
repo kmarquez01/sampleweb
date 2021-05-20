@@ -1,13 +1,35 @@
+import {useState} from "react"
+
 
 function MainContent(){
+
+    const [readMore, setRead] = useState(false)
+
+    const expanded = <div>
+        <p>Hello World!</p>
+    </div>
+
+    let linkN;
+    
+        if (readMore === true){
+            linkN = "Read less"
+        }
+        else{
+            linkN = "Read more"
+        }
+    
+    
+
     return (
         <section className ="showcase">
         <div className ="container grid">
             <div className ="showcase-text">
                 <h1>Food Suggestions</h1>
                 <p>Not seeing the item you wish to order? Feel free to recommend the item and we will work on the possibility of adding it to our menu!
-                </p>
-                <a href="feature.html" className ="btn btn-outline">Read More</a>
+                {readMore && expanded}</p>
+                
+                <a className ="btn btn-outline" onClick = {() => {setRead(!readMore)}}>{linkN}</a>
+                
             </div>
 
             <div className = "showcase-form card">
