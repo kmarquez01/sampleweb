@@ -675,6 +675,7 @@ h1 {
 
 .names{
   display:flex;
+  gap: 10px;
 }
 
 .contact-form .btn-primary{
