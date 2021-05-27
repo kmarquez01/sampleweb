@@ -1,10 +1,10 @@
-
-
 import WhoWeAre from "../../About/WhoWeAre"
 
 import Locations from "../../About/Locations"
 
 import Navigation from "../../Navigation"
+
+import Contact from "../../About/Contact"
 
 function Abouts(){
     return(
@@ -12,6 +12,7 @@ function Abouts(){
             <Navigation />
             <WhoWeAre />
             <Locations />
+            <Contact />
         </div>
     )
 }
