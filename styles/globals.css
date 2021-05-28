@@ -661,21 +661,21 @@ h1 {
 
 .contact-form input[name ='email']{
   font-size: 24px;
-  width: 600px;
+  width: 605px;
   display: flex;
   justify-content: center;
 }
 
 .contact-form input[name ='company']{
   font-size: 24px;
-  width: 600px;
+  width: 605px;
   display: flex;
   justify-content: center;
 }
 
 .names{
   display:flex;
-  gap: 10px;
+  grid-gap: 5px;
 }
 
 .contact-form .btn-primary{
