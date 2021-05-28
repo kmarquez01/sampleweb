@@ -6,7 +6,7 @@ const updatedlocations = locations.map((locations) => {
 
 function Locations(){
     return(
-        <section className = "Locations">
+        <section id = "Locations">
             <div className = "location-container">
                 <div className = "location-text">
                     <title className = "location-title">Locations</title> 

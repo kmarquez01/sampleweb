@@ -6,10 +6,13 @@ import Navigation from "../../Navigation"
 
 import Contact from "../../About/Contact"
 
+import Landing from "../../About/Landing"
+
 function Abouts(){
     return(
         <div>
             <Navigation />
+            <Landing />
             <WhoWeAre />
             <Locations />
             <Contact />

@@ -2,7 +2,7 @@ import {useState} from "react"
 
 function Contact(){
     return(
-        <section className = "contact">
+        <section id = "contact">
             <div className = "contact-container">
 
                 <h1>Have any inquiries? Feel free to contact us!</h1>
@@ -16,11 +16,13 @@ function Contact(){
                             <input type = "text" name = "name" placeholder = "Last Name" className = "names" required></input>
                         </div>
                     </div>
+                    <div className = "others">
                     <div className ="form">
                         <input type = "text" name = "email" placeholder = "Email" required></input>
                     </div>
                     <div className ="form">
                         <input type = "text" name = "company" placeholder = "Short description" required></input>
+                    </div>
                     </div>
                     <input type ="submit" value ="Send" className = "btn-primary"></input>
                 </form>

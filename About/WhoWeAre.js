@@ -8,7 +8,7 @@ import {motion} from "framer-motion"
 
 function WhoWeAre(){
     return(
-        <section className = "WhoWeAre">
+        <section id = "WhoWeAre" >
             <div className = "about-txt">
             <motion.div initial = "hidden" animate = "visible" variants = {{
                     hidden: {

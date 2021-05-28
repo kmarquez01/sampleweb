@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 
+import {useRouter} from "next/router"
+
 function Footer(){
 
     return (
@@ -25,9 +27,9 @@ function Footer(){
           <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
               <h2>About Us</h2>
-              <Link href="/About">Who we are</Link>
-              <Link as = "/About" href="/About">Locations</Link>
-              <Link href="/">Staff</Link>
+              <Link href="About/#WhoWeAre">Who we are</Link>
+              <Link href = "About/#Locations" >Locations</Link>
+              <Link href="About/#contact">Contact</Link>
             </div>
             <div className='footer-link-items'>
               <h2>Social Media</h2>
