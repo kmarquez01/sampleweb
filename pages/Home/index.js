@@ -54,7 +54,7 @@ function Homes(){
                     }
                 }}>
                     <Link href = "/Menu">
-                        <button className = {styles.button}>Go!</button>
+                        <button className = "button">Go!</button>
                     </Link>
                  </motion.div>
                 </div>
