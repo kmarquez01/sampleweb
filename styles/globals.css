@@ -48,15 +48,16 @@ img{
 
 .nav{
   background-color: rgb(16,16,16);
+  position: fixed;
   color: white;
   height: 70px;
   width: 100%;
-  position: fixed;
   z-index: 500;
 }
 
 .nav ul{
   display: flex;
+  align-items: center;
 }
 
 .nav a{
@@ -74,15 +75,27 @@ img{
   justify-content: space-between;
 }
 
+.sandwich{
+  display: flex;
+  background: none;
+  color: white;
+  border: none;
+  font-size:40px;
+}
+
 /* Home */
 
 .introcontainer{
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  top: 40%;
+  gap: 30px;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
 }
 
 .startcontainer{
@@ -129,7 +142,7 @@ border-color: whitesmoke;
 padding: 5px 20px;	
 transition: all 0.5s;
 font-family: sans-serif;
-font-size: 24px;
+font-size: 30px;
 cursor: pointer;
 background-color: transparent;
 color: whitesmoke
@@ -146,7 +159,7 @@ background-color: white;
 /* Showcase */
 
 .showcase{
-  height: 55vh;
+  height: 600px;
   background-color: var(--primary-color); 
   color: white;
   position: relative;
@@ -164,7 +177,7 @@ background-color: white;
 
 .showcase .grid{
   grid-template-columns: 55% 45%;
-  gap: 30px;
+  /* gap: 30px; */
   overflow: visible;
 }
 
@@ -230,9 +243,9 @@ background-color: white;
 }
 
 .grid{
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  /* gap: 20px; */
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -347,7 +360,6 @@ background-color: white;
 .social-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -700,6 +712,24 @@ h1 {
   top:10%;
 }
 
+@media only screen and (max-width: 400px){
+  .footer-link-wrapper{
+    flex-direction: column;
+  }
+  .footer-link-items{
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 900px){
+  .grid{
+    flex-direction: column;
+  }
+  .container{
+    max-width:500px;
+  }
+}
 
 
 @media only screen and (min-width: 1100px) {
