@@ -19,12 +19,12 @@ function Homes(){
         <div className = {styles.container0}>
             <Navigation />
             <section className = {styles.home}>
-            <div className = "startcontainer">
+            <div className = {styles.startcontainer}>
             <video autoPlay muted loop playsInline className = "vd">
                    <source src = "/videos/053.mp4" type = "video/mp4"/>
                </video>
                </div>
-                <div className = "introcontainer">
+                <div className = {styles.introcontainer}>
                 <motion.div initial = "hidden" animate = "visible" variants = {{
                     hidden: {
                         scale: .8,
@@ -54,7 +54,7 @@ function Homes(){
                     }
                 }}>
                     <Link href = "/Menu">
-                        <button className = "button">Go!</button>
+                        <button className = {styles.button}>Go!</button>
                     </Link>
                  </motion.div>
                 </div>

@@ -729,6 +729,10 @@ h1 {
   .container{
     max-width:500px;
   }
+  .showcase-text{
+    position: relative;
+    top: 30px;
+  }
 }
 
 

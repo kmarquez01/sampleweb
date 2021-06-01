@@ -1,5 +1,7 @@
 import {useState} from "react"
 
+import styles from "../styles/Home.module.css"
+
 
 function MainContent(){
 
@@ -32,10 +34,10 @@ function MainContent(){
                 
             </div>
 
-            <div className = "showcase-form card">
+            <div className = "showcase-form card" >
                 <h2>Request an Item</h2>
                 <form>
-                    <div className ="form">
+                    <div className = "form">
                         <input type = "text" name = "name" placeholder = "Name" required></input>
                     </div>
                     <div className ="form">
