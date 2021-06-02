@@ -57,9 +57,11 @@ function Homes(){
                         }
                     }
                 }}>
+                <div className = {styles.extra}>
                     <Link href = "/Menu">
                         <button className = {styles.button}>Go!</button>
                     </Link>
+                </div>
                  </motion.div>
                 </div>
             </section>
