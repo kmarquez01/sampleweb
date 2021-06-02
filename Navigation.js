@@ -27,10 +27,10 @@ class Navigation extends React.Component{
     render(){
         const object = 
         <div className = "death">
-            <li><Link href="/Home"  activeClassName = "active" onClick = {this.handleClick} ><button className = "navbut" >Home</button></Link></li>
-            <li><Link href="/Menu" activeClassName = "active" onClick = {this.handleClick} ><button className = "navbut">Menu</button></Link></li>
-            <li><Link href="/About" activeClassName = "active" onClick = {this.handleClick}><button className = "navbut">About</button></Link></li>
-            <li><Link href="/Cart" activeClassName = "active" onClick = {this.handleClick}><button className = "navbut">Cart</button></Link></li>
+            <li><Link href="/Home"><button className = "navbut" >Home</button></Link></li>
+            <li><Link href="/Menu"><button className = "navbut">Menu</button></Link></li>
+            <li><Link href="/About"><button className = "navbut">About</button></Link></li>
+            <li><Link href="/Cart"><button className = "navbut">Cart</button></Link></li>
         </div>
         return (
             <div className ="nav">
