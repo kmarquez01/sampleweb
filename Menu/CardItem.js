@@ -1,6 +1,8 @@
 
 import Link from "next/link"
 
+import CardInfo from "./CardInfo"
+
 
 
 function CardItem(props){

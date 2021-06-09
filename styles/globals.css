@@ -408,6 +408,7 @@ h1 {
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
+  border-width: 0;
   overflow: hidden;
   text-decoration: none;
   cursor: pointer;
@@ -467,6 +468,7 @@ h1 {
 }
 
 .cards_item_info {
+  background-color: white;
   display: grid;
   grid-template-rows: 4rem;
   padding: 10px 10px 10px;
@@ -499,6 +501,12 @@ h1 {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 500;
 
+}
+
+.header-popout{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .popup-inner{
@@ -541,6 +549,20 @@ h1 {
   align-items: center;
   justify-content: center;
   align-content: center;
+}
+
+.fooditem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.cartbutton{
+  border: solid;
+  border-width: 1px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 /*About*/

@@ -8,6 +8,8 @@ import Popup from "./PopUp"
 
 import {useState} from "react"
 
+import CardInfo from "./CardInfo"
+
 
 function Cards(){
 
