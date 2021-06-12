@@ -631,14 +631,26 @@ h1 {
 
 }
 
+.slidemain{
+  height: 100vh;
+}
+
 .slide{
   position: relative;
-  height: 100vh;
   display: flex;
   margin: 10px 10px;
   align-content: center;
+  justify-content: center;
+  align-items: center;
   top: 15%;
 
+}
+
+.slidesub{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .image{
@@ -820,8 +832,9 @@ h1 {
 @media only screen and (max-width: 1100px){
   .slide{
     flex-direction: column;
-    top: 5%;
-    height:100%;
+    gap: 100px;
+    top: 0;
+    height: 100%;
   }
   .aboutus-container{
     margin:0 auto;
@@ -848,6 +861,9 @@ h1 {
   }
   .slide{
     align-items: center;
+  }
+  .slidesub{
+    align-items: flex-start ;
   }
   .image{
     width: 75%;

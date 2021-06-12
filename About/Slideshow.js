@@ -28,7 +28,9 @@ if (!Array.isArray(slides) || slides.length <= 0){
 
 
     return(
+        <div className = "slidemain">
         <div className = "slide">
+            <div className = "slidesub">
             <FaArrowAltCircleLeft className ="left" onClick = {prev} />
             
             {SlideshowData.map((slide, index) => {
@@ -46,12 +48,14 @@ if (!Array.isArray(slides) || slides.length <= 0){
             
             
             <FaArrowAltCircleRight className ="right" onClick = {next} /> 
+            </div>
             <div className = "aboutus-container">
                 <title className = "aboutus-title">Who We are</title> 
                 <p className = "aboutus-p">We are a japanese based restaurant who thrives on providing the highest quality food from our culture. Innovation and motivation is what drives us forward, and we hope to show that through our dishes!</p>
             </div>
              
         </div>
+    </div>
     )
 
 }

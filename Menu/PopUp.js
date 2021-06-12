@@ -15,7 +15,7 @@ function Popup(props){
     const {title, children, openPopup, setOpenPopup} = props;
 
     const [counter, setCounter] = useState(0)
-    const [ cartItems, setCartItems] = useState([]);
+    const [ cartItems, setCartItems] = useState();
 
     const handleClick = () => {
         setCounter(counter + 1)
