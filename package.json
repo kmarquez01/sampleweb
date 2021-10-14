@@ -12,6 +12,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@material-ui/core": "^4.11.4",
+    "cross-env": "^7.0.3",
     "framer-motion": "^4.1.17",
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.20.2",
