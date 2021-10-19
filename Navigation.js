@@ -35,7 +35,9 @@ class Navigation extends React.Component{
         return (
             <div className ="nav">
             <div className = "container flex">
-                <h1 className ="logo">Lafu</h1>
+                <h1 className ="logo">
+                    <Link href = "/Home"><button className = "logo">Lafu</button></Link>
+                    </h1>
                 <nav>
                     <ul>
                         {this.state.clicked ? object: ""}

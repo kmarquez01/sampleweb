@@ -117,7 +117,15 @@ img{
 }
 
 .logo{
-  color:#f6752a
+  color:#f6752a;
+  position: relative;
+  border-color: transparent;
+  transition: all 0.5s;
+  font-family: sans-serif;
+  font-size: 36px;
+  cursor: pointer;
+  background-color: transparent;
+  
 }
 
 
