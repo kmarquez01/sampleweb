@@ -385,6 +385,12 @@ h1 {
   text-align: center;
 }
 
+.card_holder{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+    grid-gap: 25px;
+}
+
 .cards_container{
     padding-top: 20px;
 }
@@ -398,6 +404,7 @@ h1 {
   margin-bottom: 16px;
   width: 75%;
   flex-direction: column;
+  justify-content: center;
   margin-inline: auto;
 }
 
