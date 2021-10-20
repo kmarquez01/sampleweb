@@ -46,8 +46,8 @@ const CardInfo = [
     {
         id: 7,
         image: "/images/img7.jpg",
-        name: "Yakitori",
-        description: "Bite sized chicken pieces roasted on a skewer.",
+        name: "Onigiri",
+        description: "Seaweed wrapped rice balls with filling inside.",
         price: 2.00,
         
         
@@ -55,37 +55,37 @@ const CardInfo = [
     {
         id: 8,
         image: "/images/img8.jpg",
-        name: "Sushi",
-        description: "Pressed vinegared rice with a piece of raw fish or shellfish on top",
+        name: "Shrimp Tempura",
+        description: "Deep Fried wrapped shrimp with flavour.",
         price: 6.00
     },
     {
         id: 9,
         image: "/images/img9.jpg",
-        name: "Udon",
-        description: "A type of thick noodle in a soup base combined with various ingredients.",
+        name: "Oden",
+        description: "A hotpot served with vegetables and protein.",
         price: 8.00
     },
     {
         id: 10,
         image: "/images/img10.jpg",
-        name: "Ramen",
-        description:"Noodle soup mixed with broth, miso, boiled egg and tonkotsu pork.",
+        name: "Tamagoyaki",
+        description:"Rolled up Japanese omelette with layered seasoning.",
         price: 7.50
     },
     {
         id: 11,
         image: "/images/img11.jpg",
-        name: "Donburi",
-        description: "A dish with various meat, fish and vegetables over steamed rice.",
+        name: "Okonomiyaki",
+        description: "Fish pancake served with a mix of vegetables and batter.",
         price: 6.50,
 
     },
     {
         id: 12,
         image: "/images/img12.jpg",
-        name: "Tonkatsu",
-        description: "Deep fried coated pork chops in crisp panko breadcrumbs.",
+        name: "Takoyaki",
+        description: "Freshly served octopus balls with added sauces.",
         price: 5.50
     },
     {
