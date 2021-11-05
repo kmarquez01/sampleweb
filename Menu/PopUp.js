@@ -37,7 +37,7 @@ function Popup(props){
            <DialogTitle>
                <div className = "header-popout">
                    Total
-                    <FaTimes onClick = {() => setOpenPopup(false)}>
+                    <FaTimes className = "close" onClick = {() => setOpenPopup(false)}>
                     </FaTimes>
                </div>
            </DialogTitle>

@@ -352,6 +352,10 @@ img{
   margin-bottom: 16px;
 }
 
+.close{
+  cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
 
   .death{
@@ -404,7 +408,6 @@ h1 {
 .cards_items, .cards_item_link {
   display: flex;
   margin-bottom: 16px;
-  width: 75%;
   flex-direction: column;
   justify-content: center;
   margin-inline: auto;
