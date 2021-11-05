@@ -14,8 +14,8 @@ import CardInfo from "./CardInfo";
 function Popup(props){
     const {title, children, openPopup, setOpenPopup} = props;
 
-    const [counter, setCounter] = useState(0)
-    const [ cartItems, setCartItems] = useState();
+    const [counter, setCounter] = useState(0);
+    const [ index, setIndex] = useState(0);
 
     const handleClick = () => {
         setCounter(counter + 1)
@@ -30,8 +30,7 @@ function Popup(props){
         }
     }
 
-
-  
+    const foodItem = CardInfo.find(({id}) => id);
 
    return(
        <Dialog open = {openPopup}>
@@ -42,17 +41,20 @@ function Popup(props){
                     </FaTimes>
                </div>
            </DialogTitle>
-           <DialogContent>    
-           {CardInfo.map( (food, id) => (
-                    <div className = "fooditem" key = {id}>
+           <DialogContent> 
+         
+           
+                    <div className = "fooditem">
                         <div className = "fooditemsub">
-                        {food.name}
+                        {foodItem.name}
                         </div>
-                        {food.price}
+                        {foodItem.price}
                         
                     </div>
-                )
-            )}
+                
+     
+              
+
                <div className = "countmain">
                    <button className = "count" onClick = {handleClick1}>
                        -
