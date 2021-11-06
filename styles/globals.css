@@ -597,8 +597,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
-    top: 25%;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -612,6 +611,14 @@ h1 {
 
 .aboutcon{
   height:100%;
+}
+
+.quote{
+  text-align: center;
+    padding: 84px;
+    opacity: 90%;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .aboutus-container{

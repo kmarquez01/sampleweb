@@ -4,7 +4,7 @@ const CardInfo = [
         image: "/images/img1.jpg",
         name: "Yakitori",
         description: "Bite sized chicken pieces roasted on a skewer.",
-        price: 2.00,
+        price: 2.50,
         
     },
     {
