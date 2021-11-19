@@ -26,9 +26,7 @@ function Cards(){
 
                     <ul className = "cards_items">
                         <CardItem onClick = {() => setOpenPopup(true)} />
-                        <Popup openPopup = {openPopup} setOpenPopup = {setOpenPopup}>
-                           
-                        </Popup>
+                       <Popup openPopup = {openPopup} setOpenPopup = {setOpenPopup} key = {CardInfo.id}></Popup>  
                     </ul>
 
 

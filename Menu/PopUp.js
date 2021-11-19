@@ -15,25 +15,38 @@ function Popup(props){
     const {title, children, openPopup, setOpenPopup} = props;
 
     const [counter, setCounter] = useState(0);
-    const [ index, setIndex] = useState(0);
+    const [ index, setIndex] = useState([]);
+    const [price, setPrice] = useState(0);
 
     const handleClick = () => {
         setCounter(counter + 1)
+        setPrice(price + foodItem.price)
+
     }
 
     const handleClick1 = () => {
         if(counter === 0){
             setCounter(0)
+            setPrice(price)
         }
         else{
             setCounter(counter - 1)
+            setPrice(price - foodItem.price)
         }
     }
 
-    const foodItem = CardInfo.find(({id}) => id);
 
+    const foodItem = CardInfo.find(({id}) => id);
+    const foodItem1 = CardInfo.find(({id}) => id == 2);
+    const foodItem2 = CardInfo.find(({id}) => id == 3);
+
+    console.log(foodItem1);
+
+  
    return(
-       <Dialog open = {openPopup}>
+
+
+       <Dialog open = {openPopup} key = {foodItem.id}>
            <DialogTitle>
                <div className = "header-popout">
                    Total
@@ -41,18 +54,30 @@ function Popup(props){
                     </FaTimes>
                </div>
            </DialogTitle>
-           <DialogContent> 
-         
            
-                    <div className = "fooditem">
-                        <div className = "fooditemsub">
-                        {foodItem.name}
-                        </div>
-                        {foodItem.price}
-                        
-                    </div>
+           <DialogContent> 
+
+            <div className = "fooditem" key = {foodItem.id}>
+
+                <div className = "fooditemsub">
+                    {foodItem.name}
+                </div>
+
+                    {foodItem.price}
+
                 
-     
+            </div>
+
+            <div className = "fooditem" key = {foodItem.id}>
+
+                <div className = "fooditemsub">
+                    {"Total"}
+                </div>
+
+                    {price}
+
+                
+            </div>
               
 
                <div className = "countmain">

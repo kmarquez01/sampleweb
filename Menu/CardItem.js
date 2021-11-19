@@ -21,9 +21,8 @@ function CardItem(props){
             return (
               <li className = "cards_item" key={item.id} onClick = {props.onClick}>
                 <button className = "cards_item_link">
-                <PopUp openPopup = {openPopup} setOpenPopup = {setOpenPopup}>
-                           
-                        </PopUp>
+                
+    
                 <div className = "cont1">
                     <figure className = "cards_item_picwrap" data-category = {item.name}>
                 <img src={item.image} alt = "Image" className = "cards_item_img"/>
